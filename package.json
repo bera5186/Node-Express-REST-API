@@ -1,0 +1,31 @@
+{
+  "name": "node-express-rest-api",
+  "version": "1.0.0",
+  "description": "A REST API built using Nodejs and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bera5186/Node-Express-REST-API.git"
+  },
+  "keywords": [
+    "REST-API"
+  ],
+  "author": "Rahul Bera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bera5186/Node-Express-REST-API/issues"
+  },
+  "homepage": "https://github.com/bera5186/Node-Express-REST-API#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
